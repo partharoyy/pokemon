@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(180, 248, 225);
+  font-family: 'Shizuru', cursive;
+}
+
+.pokemonHomeContainer h1 {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.pokemon {
+  font-weight: bold;
+  font-size: 1.2rem;
+  font-family: 'Cabin Sketch', cursive;
+
+  max-width: 1000px;
+}
+
+.pokemon ul {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  align-items: center;
+  margin-left: 11rem;
+  grid-gap: 30px;
+  margin-top: 5rem;
+}
+
+.pokemonItem {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(144, 241, 209);
+  word-wrap: break-word;
+  list-style: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+}
+
+.nav {
+  display: flex;
+  justify-content: right;
+  list-style: none;
+  margin: 1rem;
+}
+
+.nav li {
+  margin-left: 1rem;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+}
